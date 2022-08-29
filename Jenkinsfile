@@ -7,9 +7,9 @@ pipeline {
 
         AWS_S3_BUCKET = "maha-d1s2"
         ARTIFACT_NAME = "firstProject-0.0.1-SNAPSHOT.jar"
-        AWS_EB_APP_NAME = "maha-d1s2"
+        AWS_EB_APP_NAME = "week13d1-maha"
         AWS_EB_APP_VERSION = "${BUILD_ID}" // when you want to roll back
-        AWS_EB_ENVIRONMENT = "Mahad1s2-env"
+        AWS_EB_ENVIRONMENT = "Week13d1maha-env"
 
     }
     stages {
